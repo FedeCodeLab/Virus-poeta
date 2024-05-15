@@ -21,7 +21,6 @@ export default function Console() {
     const interval = setInterval(() => {
       const newText = generateRandomText() + " ";
       setRandomText((prevText) => prevText + newText);
-      // Ajustar scrollTop al máximo para que el scrollbar siga abajo
       consoleRef.current.scrollTop = consoleRef.current.scrollHeight;
     }, 50);
 
