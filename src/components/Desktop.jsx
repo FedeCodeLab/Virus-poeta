@@ -21,7 +21,7 @@ export default function Desktop() {
   }, []);
 
   return (
-    <div className="pl-3 pt-2 text-white max-w-24 select-none">
+    <div className="pl-2 pt-2 text-white max-w-24 select-none">
       <div
         className={`flex flex-col items-center max-w-20 p-1 border ${
           select ? "border-dotted border-silver-400" : "border-transparent"
