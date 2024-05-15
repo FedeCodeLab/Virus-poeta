@@ -28,7 +28,11 @@ export default function Desktop() {
         }`}
         onClick={onClick}
       >
-        <img src="../../img/bat.png" alt="Bat" className="w-10" />
+        <img
+          src="https://res.cloudinary.com/dpqpu4wjy/image/upload/v1715799169/virus%20poeta/bat_kwsih0.png"
+          alt="Bat"
+          className="w-10"
+        />
         <p className="text-center text-sm">Apocalipsis, plis</p>
       </div>
     </div>
