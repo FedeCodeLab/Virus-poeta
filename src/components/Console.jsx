@@ -45,7 +45,7 @@ export default function Console() {
       </div>
       <div
         ref={consoleRef}
-        className="bg-black min-h-80 max-h-80 text-white py-2 overflow-y-auto"
+        className="bg-black min-h-80 max-h-80 text-green-700 py-2 overflow-y-auto"
       >
         <p>&gt;C:\Users\admin</p>
         <p>&gt;{randomText}</p>
