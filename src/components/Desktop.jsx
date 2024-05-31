@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { openVideo } from "../redux/actions/actions";
 
 export default function Desktop() {
   const [select, setSelect] = useState(false);
@@ -19,6 +21,12 @@ export default function Desktop() {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
+
+  const dispatch = useDispatch();
+
+  const onDoubleClick = () => {
+    dispatch(openVideo()); // Despacha la acción para abrir el componente Video
+  };
 
   return (
     <div className="pl-2 pt-2 text-white max-w-24 select-none">
