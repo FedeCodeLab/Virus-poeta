@@ -78,10 +78,9 @@ export default function Video({ onClose }) {
           ref={videoRef}
           width="100%"
           height="100%"
-          autoPlay
+          controls
           onCanPlayThrough={handleCanPlayThrough}
         >
-          {/* <source src="../../img/virusasd.mp4" type="video/mp4" /> */}
           <source
             src="https://res.cloudinary.com/dpqpu4wjy/video/upload/v1/virus%20poeta/virusasd_xkvde5.mp4?_s=vp-2.0.2"
             type="video/mp4"
