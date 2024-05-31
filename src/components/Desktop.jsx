@@ -25,7 +25,7 @@ export default function Desktop() {
   const dispatch = useDispatch();
 
   const onDoubleClick = () => {
-    dispatch(openVideo()); // Despacha la acción para abrir el componente Video
+    dispatch(openVideo());
   };
 
   return (
